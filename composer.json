@@ -1,0 +1,26 @@
+{
+    "name": "encima-io/nova-coordinates-postgis-fields",
+    "description": "A Laravel Nova field for updating PostGIS geography and geometry columns.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "PostGIS",
+        "coordinates",
+        "postgresql",
+        "place"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encima\\PostGIS\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
